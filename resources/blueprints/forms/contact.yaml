@@ -1,0 +1,70 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              type: text
+              display: 'Your name'
+              placeholder: 'Full name please'
+              validate:
+                - required
+          -
+            handle: company
+            field:
+              type: text
+              display: 'Your company or brand name'
+          -
+            handle: email
+            field:
+              input_type: email
+              type: text
+              display: 'Your email'
+              validate:
+                - required
+      -
+        display: 'The Website'
+        fields:
+          -
+            handle: what
+            field:
+              options:
+                -
+                  key: 'New website'
+                  value: null
+                -
+                  key: 'Website redesign'
+                  value: null
+              type: select
+              display: 'What are you looking to build?'
+              validate:
+                - required
+          -
+            handle: description
+            field:
+              type: textarea
+              display: 'Tell me about your business or website idea'
+              validate:
+                - required
+          -
+            handle: budget
+            field:
+              options:
+                -
+                  key: 'Not sure yet'
+                  value: null
+                -
+                  key: 'Under $1,000'
+                  value: null
+              type: select
+              display: 'Do you have a budget in mind?'
+              validate:
+                - required
+          -
+            handle: additional_info
+            field:
+              type: textarea
+              display: 'Anything else?'
