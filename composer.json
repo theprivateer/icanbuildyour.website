@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1",
+        "laravel/framework": "^13.0",
+        "laravel/tinker": "^3.0",
         "mitydigital/feedamic": "3.0.13",
         "mitydigital/sitemapamic": "3.5.0",
         "statamic/cms": "6.22.0",
@@ -27,7 +27,7 @@
         "laravel/sail": "^1.41",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
-        "phpunit/phpunit": "^11.5.50",
+        "phpunit/phpunit": "^12.0",
         "spatie/laravel-ignition": "^2.9.1"
     },
     "autoload": {
