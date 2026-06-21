@@ -99,7 +99,7 @@ content:
 
       If you need a new website, an online store, or improvements to an existing site, I would be happy to talk. Together we can build a website that performs well, is easy to manage, and supports your business as it grows.
     button_label: "Get in touch and let's discuss what you need"
-    button_link: /contact
+    button_link: 'mailto:phil@truenorthlabs.com.au'
     type: cta
     enabled: true
 ---
