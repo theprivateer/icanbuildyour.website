@@ -12,3 +12,4 @@ preferences:
         - title
         - date
         - status
+      per_page: 50
